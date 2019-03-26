@@ -8,9 +8,6 @@ module.exports = {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly"
   },
-  rules: {
-    "react/jsx-filename-extension": "off"
-  },
   parserOptions: {
     ecmaFeatures: {
       jsx: true

@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.example-card {
+  border-radius: 4px;
+  box-shadow: rgba(67, 90, 111, 0.416) 0px 0px 1px,
+    rgba(67, 90, 111, 0.3) 0px 5px 8px -4px;
+  padding: 16px;
+  background-color: white;
+  width: 78vw;
+  white-space: initial;
+  max-width: 300px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 8px 16px 8px;
+}
+
+.example-card:first-child {
+  margin: 0 8px 16px 16px;
+}
+.example-card:last-child {
+  margin: 0 16px 16px 8px;
+}
+
+.example-image {
+  height: 150px;
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.example-headline {
+  margin: 16px 0 0 0;
+}
+
+.example-paragraph {
+  margin-bottom: 24px;
+  line-height: 1.4;
+}
+
+.example-date {
+  font-size: 12px;
+  color: #ccc;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: auto;
+}
