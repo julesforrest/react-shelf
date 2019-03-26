@@ -8,7 +8,7 @@
   "unpkg": "dist/index.umd.js",
   "scripts": {
     "test": "yarn test:eslint && yarn test:prettier",
-    "test:eslint": "eslint '**/*.js'",
+    "test:eslint": "eslint . --ext .jsx --ext .js",
     "test:prettier": "prettier \"**/*.{js,jsx,css,scss,json,md,mdx,html}\" --list-different",
     "format": "prettier \"**/*.{js,jsx,css,scss,json,md,mdx,html}\" --write",
     "storybook": "start-storybook -p 6006",
